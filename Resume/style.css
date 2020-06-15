@@ -1,10 +1,62 @@
-BODY {
+/* Main Style */
 
+BODY {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color:#444;
+  font-weight:400;
 }
+
+ /* Banner Name on Top */
+
 h1 {
 font-size:3em;
 text-transform:uppercase;
-width:36px
 text-align:center;
 color:#33485e;
+}
+
+/* My Title */
+
+
+strong {
+font-size:1.5em;
+text-transform:uppercase;
+color:#33485e
+}
+
+/* Section Titles */
+h2 {
+  font-size:1.5em;
+  text-transform:uppercase;
+  background-color:#33485e;
+  color:#fff;
+}
+
+/* Position Titles */
+
+h3 {
+  font-size:1.5em;
+  font-weight:600;
+}
+
+/* Company Names */
+
+h4 {
+  font-size:1.5em;
+  font-weight:400
+}
+
+/* Dates */
+
+h5 {
+  font-size:1em;
+  font-weight:400;
+  font-style:italic;
+}
+
+/* Bulleted Lists */
+
+h6 {
+  font-size:1em;
 }
