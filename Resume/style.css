@@ -37,7 +37,7 @@ text-align:center;
 .sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
-  background:#33485e;
+  background-color:#33485e;
   color:#fff;
   font-weight:400;
   margin-top:20px;
@@ -50,7 +50,7 @@ text-align:center;
 
 /* Position Titles */
 h3 {
-  font-size:1.5em; d
+  font-size:1.5em;
   font-weight:600;
 }
 
