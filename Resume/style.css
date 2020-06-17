@@ -5,6 +5,8 @@ BODY {
   font-size: 1em;
   color:#444;
   font-weight:400;
+  margin: 0px;
+  padding: 0px;
 }
 
 #container {
@@ -31,10 +33,13 @@ font-size:1.5em;
 text-transform:uppercase;
 color:#33485e
 text-align:center;
+margin-top: 20px;
+margin: 0 auto;
+font-weight: 600;
 }
 
 /* Section Titles */
-sectionheader {
+.sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
@@ -49,29 +54,29 @@ sectionheader {
 }
 
 /* Position Titles */
-jobtitle {
+.jobtitle {
   font-size:1.5em;
   font-weight:600;
 }
 
 /* Company Names */
-organization {
+.organization {
   font-size:1.25em;
   font-weight:400
 }
 
 /* Dates */
-date {
-  font-size:1em;
+.date {
+  font-size:1.5em;
   font-weight:400;
-  font-style:italic;
-  margin-top:2px;
-  margin-bottom:0;
-  margin-right:0;
-  margin-left:0;
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
-description {
+.description {
   margin-top:10px;
   margin-bottom:10px;
   margin-left:0;
@@ -83,8 +88,9 @@ li {
 }
 
 /* Contact Information */
-menu {
+.menu {
   margin: 0;
   padding: 0;
   text-align: center;
+  margin: center;
 }
