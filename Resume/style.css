@@ -41,7 +41,7 @@ font-weight: 600;
 }
 
 /* Section Titles */
-.sectionheader {
+.Sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
@@ -52,13 +52,14 @@ font-weight: 600;
   margin-left:0;
   width:70%;
   min-width:300px;
+  text-align: left;
 }
 
 /* Position Titles */
 .jobtitle {
   font-size:1.5em;
   font-weight:600;
-  text-align: left;
+  text-align:left;
 }
 
 /* Company Names */
@@ -69,13 +70,13 @@ font-weight: 600;
 }
 
 /* Dates */
-.date {
+.date{
   font-size:1.5em;
   font-weight:400;
   font-style: italic;
   margin-top: 2px;
   margin: 0 auto;
-  text-align: left;
+  text-align:left;
 }
 
 .description {
