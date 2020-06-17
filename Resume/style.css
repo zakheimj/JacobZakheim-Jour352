@@ -9,15 +9,18 @@ BODY {
 
  /* Banner Name on Top */
 
-h1 {
+.name {
 font-size:3em;
 text-transform:uppercase;
 text-align:center;
 color:#33485e;
+border: 1px;
+width: 60%;
+min-width: 300px;
+margin: 0 auto; center;
 }
 
 /* My Title */
-
 
 strong {
 font-size:1.5em;
