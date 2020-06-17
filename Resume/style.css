@@ -7,14 +7,18 @@ BODY {
   font-weight:400;
 }
 
- /* Banner Name on Top */
+#container {
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+}
 
-.name {
+ /* Banner Name on Top */
+#name {
 font-size:3em;
 text-transform:uppercase;
 text-align:center;
-color:#33485e;
-border: 1px;
+border-bottom: 1px solid #33485e;
 width: 60%;
 min-width: 300px;
 margin: 0 auto; center;
@@ -26,32 +30,37 @@ strong {
 font-size:1.5em;
 text-transform:uppercase;
 color:#33485e
+text-align:center;
 }
 
 /* Section Titles */
-h2 {
+.sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
-  background-color:#33485e;
+  background:#33485e;
   color:#fff;
+  font-weight:400;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right:0;
+  margin-left:0;
+  width:70%;
+  min-width:300px;
 }
 
 /* Position Titles */
-
 h3 {
   font-size:1.5em;
   font-weight:600;
 }
 
 /* Company Names */
-
 h4 {
   font-size:1.5em;
   font-weight:400
 }
 
 /* Dates */
-
 h5 {
   font-size:1em;
   font-weight:400;
@@ -59,7 +68,6 @@ h5 {
 }
 
 /* Bulleted Lists */
-
-h6 {
+li {
   font-size:1em;
 }
