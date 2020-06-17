@@ -49,14 +49,14 @@ text-align:center;
 }
 
 /* Position Titles */
-h3 {
+.jobtitle {
   font-size:1.5em;
   font-weight:600;
 }
 
 /* Company Names */
-h4 {
-  font-size:1.5em;
+.organization {
+  font-size:1.25em;
   font-weight:400
 }
 
