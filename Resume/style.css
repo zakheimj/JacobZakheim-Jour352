@@ -9,15 +9,17 @@ BODY {
   padding: 0px;
 }
 
-#container {
+.container {
   width:100%;
   max-width:1200px;
   margin:0 auto;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 
  /* Banner Name on Top */
-#name {
+.name {
 font-size:3em;
 text-transform:uppercase;
 text-align:center;
@@ -28,10 +30,10 @@ margin: 0 auto; center;
 }
 
 /* My Title */
-strong {
+.student {
 font-size:1.5em;
 text-transform:uppercase;
-color:#33485e
+color:#33485e;
 text-align:center;
 margin-top: 20px;
 margin: 0 auto;
@@ -44,7 +46,6 @@ font-weight: 600;
   text-transform:uppercase;
   background-color:#33485e;
   color:#fff;
-  font-weight:400;
   margin-top:20px;
   margin-bottom:10px;
   margin-right:0;
@@ -79,12 +80,7 @@ font-weight: 600;
 .description {
   margin-top:10px;
   margin-bottom:10px;
-  margin-left:0;
-  margin-right:0;
-}
-/* Bulleted Lists */
-li {
-  font-size:1em;
+  margin: 0 auto;
 }
 
 /* Contact Information */
@@ -93,4 +89,22 @@ li {
   padding: 0;
   text-align: center;
   margin: center;
+}
+
+.degrees {
+  margin-top: 5px;
+  margin: 0 auto;
+}
+
+.do {
+  margin-top: 5px;
+  margin: 0 auto;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
 }
