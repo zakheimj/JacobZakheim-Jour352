@@ -23,14 +23,15 @@ BODY {
 font-size:3em;
 text-transform:uppercase;
 text-align:center;
-border-bottom: 1px solid #33485e;
+border-bottom: 1px solid
+color:#33485e;
 width: 60%;
 min-width: 300px;
 margin: 0 auto; center;
 }
 
 /* My Title */
-.Title {
+.title {
 font-size:1.5em;
 text-transform:uppercase;
 color:#33485e;
