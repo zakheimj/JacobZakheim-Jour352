@@ -3,6 +3,12 @@ font-family:Georgia,sans-serif;
 font-size:13px;
 }
 
+h1 {
+  font-family:Helvetica,sans-serif;
+  font-size:18px;
+  font-weight:600;
+}
+
 
 #byline {
 font-family:Helvetica,sans-serif;
