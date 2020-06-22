@@ -41,7 +41,7 @@ font-weight: 600;
 }
 
 /* Section Titles */
-.Sectionheader {
+.sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
@@ -65,7 +65,7 @@ font-weight: 600;
 /* Company Names */
 .organization {
   font-size:1.25em;
-  font-weight:400
+  font-weight:400;
   text-align: left;
 }
 
