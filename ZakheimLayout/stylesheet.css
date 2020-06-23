@@ -1,6 +1,7 @@
 BODY {
 font-family:Georgia,sans-serif;
 font-size:13px;
+text-align: left;
 }
 
 h1 {
@@ -18,4 +19,19 @@ font-style:italic;
 #content {
 margin: 0 auto;
 width:900px;
+text-align: left;
+}
+
+#Related {
+font-weight:600;
+font-size:13px;
+}
+
+#img-container {
+text-align:center;
+display:block;
+}
+
+p {
+  text-align:left;
 }
