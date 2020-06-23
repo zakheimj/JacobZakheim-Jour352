@@ -1,42 +1,63 @@
 .BODY {
-
+  text-align:left;
+  margin: 0 auto;
+  width:900px;
+  font-family:Helvetica,arial,sans-serif;
+  font-size:12px;
 }
 
 /* Washington Post Title */
 .byline {
-
+font-family:Helvetica,sans-serif;
+font-size:14px;
+font-style: italic;
+font-weight: 600;
 }
 
 .content {
-
+margin: 0 auto;
+width:900px;
+text-align: left;
 }
 
 .p {
+text-align:left;
+margin: 0 auto;
+width:900px;
+font-family:Helvetica,arial,sans-serif;
+font-size:12px;
+}
+
+/* Headline */
+.h6 {
+font-family: serif,helvetica;
+font-size:26px;
 
 }
 
-/* Title */
-.h1 {
-
-}
 
 /* Authors */
-.h2 {
+.h7 {
+font-family: sans-serif,helvetica;
+font-size: 14px;
 
 }
 
 /* Date */
 .h3 {
-
+font-family:Helvetica,sans-serif;
+font-size:14px;
+font-style: italic;
+font-weight: 600;
 }
 
 /* Subheads */
-.h4 {
+.h8 {
 
 }
 
 /* Burners */
-.h5 {
+.h9 {
 
 }
 
