@@ -1,37 +1,64 @@
-BODY {
+.BODY {
 font-family:Georgia,sans-serif;
 font-size:13px;
 text-align: left;
 }
-
-h1 {
+.h1 {
   font-family:Helvetica,sans-serif;
   font-size:18px;
 }
 
-
-#byline {
-font-family:Helvetica,sans-serif;
-font-size:14px;
-font-style:italic;
+.h2 {
+  font-family:Helvetica,sans-serif;
+  font-size:14px;
+  font-weight:600;
 }
 
-#content {
+.h3 {
+font-family:Helvetica,sans-serif;
+font-size:12px;
+font-style: italic;
+}
+
+.byline {
+font-family:Helvetica,sans-serif;
+font-size:14px;
+font-style: italic;
+font-weight: 600;
+}
+
+.content {
 margin: 0 auto;
 width:900px;
 text-align: left;
 }
 
-#Related {
+.Related {
 font-weight:600;
-font-size:13px;
+font-size:16px;
 }
 
-#img-container {
+.img-container {
 text-align:center;
 display:block;
 }
-
-p {
+.p {
   text-align:left;
+  margin: 0 auto;
+  width:900px;
+}
+blockquote {
+font: 24px normal Helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;
+display: block;
+margin-bottom: 15px;
+color: #6495ed
+margin-left: 50px;
+padding-left: 15px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 13px;
 }
