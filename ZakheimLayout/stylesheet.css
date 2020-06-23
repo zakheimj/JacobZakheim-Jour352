@@ -48,12 +48,15 @@ display:block;
   width:900px;
 }
 blockquote {
-font: 24px normal Helvetica, sans-serif;
+font: 16px/24px Helvetica, sans-serif;
+font-weight:bolder;
+text-align: center;
 font-style: italic;
-margin-top: 15px;
-display: block;
-margin-bottom: 15px;
-color: #6495ed
+margin-top: 20px;
+margin-bottom: 20px;
+color: #33485e;
+border-top:6px solid #33485e;
+border-bottom: 6px solid #33485e;
 margin-left: 50px;
 padding-left: 15px;
 }
