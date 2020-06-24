@@ -112,5 +112,9 @@ color:#900D70;
 border-top:6px solid #900D70;
 border-bottom:6px solid #900D70;
 font-size:16px;
+}
 
+#banner {
+margin: 0 auto;
+width:900px;
 }
