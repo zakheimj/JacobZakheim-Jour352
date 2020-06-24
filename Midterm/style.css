@@ -8,16 +8,23 @@
 
 /* Washington Post Title */
 .byline {
-font-family:Helvetica,sans-serif;
-font-size:14px;
+font-family:sans-serif,helvetica;
+font-size:16px;
 font-style: italic;
 font-weight: 600;
 }
 
-.content {
-margin: 0 auto;
-width:900px;
+#content {
 text-align: left;
+font-family:Helvetica,arial,sans-serif;
+font-size:12px;
+}
+
+/* Headline */
+#headline {
+font-family:serif,helvetica;
+font-size: 26px;
+font-weight:bold;
 }
 
 .p {
@@ -28,37 +35,40 @@ font-family:Helvetica,arial,sans-serif;
 font-size:12px;
 }
 
-/* Headline */
-.h6 {
-font-family: serif,helvetica;
-font-size:26px;
 
-}
-
-
-/* Authors */
-.h7 {
+#authors {
 font-family: sans-serif,helvetica;
-font-size: 14px;
-
-}
-
-/* Date */
-.h3 {
-font-family:Helvetica,sans-serif;
-font-size:14px;
-font-style: italic;
+font-size: 18px;
 font-weight: 600;
 }
 
-/* Subheads */
-.h8 {
-
+/* Date */
+#date {
+font-family:sans-serif,helvetica;
+font-size:16px;
+font-style:italic;
 }
 
-/* Burners */
-.h9 {
+/* subheads */
+#subheads {
+font-family:sans-serif,helvetica;
+font-size:16px;
+font-weight:600;
+}
 
+/* burners */
+#burners {
+font-family:helvetica,arial,sans-serif;
+font-size:12px;
+font-weight:bolder;
+font-style: italic;
+}
+
+/*questions */
+#questions {
+font-family:helvetica,arial,sans-serif;
+font-size:13px;
+font-style:italic;
 }
 
 /* Related Articles */
