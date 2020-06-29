@@ -34,6 +34,16 @@ text-align: center;
 align-content: center;
 color: #2B282A;
 font-family: 'Merriweather', arial, sans-serif;
+font-weight:bold;
+}
+
+.about-me {
+color: #2B282A;
+font-family: 'Merriweather', arial, sans-serif;
+font-weight:bold;
+text-decoration: underline;
+text-align: center;
+font-size: 36px;
 }
 
 .job {
@@ -56,16 +66,21 @@ font-family: 'Merriweather', arial, sans-serif;
 .description {
 color: #2B282A;
 font-family: 'Merriweather', arial, sans-serif;
+font-size: 12px;
 }
 
 .date {
 color: #2B282A;
 font-family: 'Merriweather', arial, sans-serif;
+font-size: 16px;
+font-style: oblique;
 }
 
 .organization {
 color: #2B282A;
 font-family: 'Merriweather', arial, sans-serif;
+font-weight: bold;
+font-size: 16px;
 }
 
 .education-list {
@@ -81,9 +96,12 @@ font-family: 'Merriweather', arial, sans-serif;
 .works {
 color: #2B282A;
 font-family: 'Merriweather', arial, sans-serif;
-border-top:6px #2B282A;
-border-bottom:6px #2B282A;
+}
 
+.edskillsport-font {
+color: #2B282A;
+font-family: 'Merriweather', arial, sans-serif;
+font-size: 12px;
 }
 
 .scroll {
