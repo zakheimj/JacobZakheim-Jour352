@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,39 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
+<div class="scroll">
+  <h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Sections
+           </a>
+
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <a class="dropdown-item" href="#experience-sect">Experience</a>
+             <a class="dropdown-item" href="#education-sect">Education</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="#skills-sect">Skills</a>
+         </div>
+         </li>
+       </ul>
+     </div>
+    </nav>
+  </h2>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -17,34 +51,9 @@
 </head>
 
 <body>
-<!--Start Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="#">JJ Zakheim's Resume</a>
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-   </button>
+<br></br>
+&nbsp
 
-   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-     <ul class="navbar-nav mr-auto">
-       <li class="nav-item active">
-         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-       </li>
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Sections
-         </a>
-
-         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="#">Experience</a>
-           <a class="dropdown-item" href="#">Education</a>
-           <div class="dropdown-divider"></div>
-           <a class="dropdown-item" href="#">Skills</a>
-       </div>
-       </li>
-     </ul>
-   </div>
-  </nav>
-<!-- End Navbar -->
 
 <img src="finalresume/finalresume-banner1.png" width="1400px">
 
@@ -69,12 +78,13 @@ Business Card:
 
 
 <div class="jumbo-contact">
-<a class="jumbo-contact" href="mailto:jjzakheim@gmail.com" role="button">Email</a> &nbsp <a class="jumbo-contact" href="https://www.linkedin.com/in/jacob-zakheim-2447a2143/" role="button">Linkedin</a>
- &nbsp <a class="jumbo-contact" href="https://twitter.com/JJ_Zakheim" role="button">Twitter</a> &nbsp <a class="jumbo-contact" href="https://github.com/zakheimj" role="button">Github</a>
+<a class="jumbo-contact" href="mailto:jjzakheim@gmail.com" target=_blank role="button">Email</a> &nbsp <a class="jumbo-contact" href="https://www.linkedin.com/in/jacob-zakheim-2447a2143/" target=_blank role="button">Linkedin</a>
+ &nbsp <a class="jumbo-contact" href="https://twitter.com/JJ_Zakheim" target=_blank role="button">Twitter</a> &nbsp <a class="jumbo-contact" href="https://github.com/zakheimj" target=_blank role="button">Github</a>
 </div> &nbsp
 <!-- End Jumbotron -->
 <br></br>
 <!-- Experience -->
+<a id="experience-sect">
 <div class="threesects">Experience:
 </div>  &nbsp <br></br>
 
@@ -154,16 +164,21 @@ Business Card:
 &nbsp;
 
 <div class="description">Contributing writer, wrote 16 articles covering Fantasy Football, the NFL and the NBA. NBA Topics include, mock trades, free agency and NBA Draft content. Fantasy Football topics included Daily Fantasy advice, and weekly fantasy football start ‘em sit ‘em columns.</div>
+</a>
 
 <!--Education-->
+<a id="education-sect">
 <div class="threesects">Education:</div>
 <div>
 <ul class="education-list">
 <li>Bachelor of Arts, Journalism, Minor in General Business, University of Maryland, 2022</li>
+</a>
 </ul>
 </div>
 
+
 <!--Skills-->
+<a id="skills-sect">
 <div class="threesects">Skills:</div>
 <div>
 <ul class= "skills-list">
@@ -172,6 +187,17 @@ Business Card:
 <li>Professional Writer</li>
 <li>Basic HTML and CSS Languages</li>
 </ul> </div>
+</a>
+
+<div class="threesects">Writing Portfolio:</div>
+<div>
+<ul class="works">
+<a href="https://hoopshabit.com/2020/06/12/nba-free-agency-series-kris-dunn/" target=-blank>NBA Free Agency Preview: Kris Dunn</a> <br></br>
+<a href="https://hoopshabit.com/2020/05/12/nba-draft-anthony-cowan-jr-ready/" target=_blank>Anthony Cowan Jr. is Ready for the Next Challenge</a> <br></br>
+<a href="https://hoopshabit.com/2020/04/30/nba-draft-uncertainty-mac-mcclung/" target=_blank>NBA Draft Profile: Mac McClung</a> <br></br>
+<a href="https://hoopshabit.com/2020/04/21/utah-jazz-rudy-gobert-possible-trades/" target=_blank>Rudy Gobert Potential Trade Destinations</a> <br></br>
+<a href="https://hoopshabit.com/2020/03/27/timberwolves-gersson-rosas-impact/" target=_blank>Breaking Down Gersson Rosas Early Impact</a> <br></br>
+
 
 </div>
 
