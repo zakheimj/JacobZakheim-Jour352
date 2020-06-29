@@ -104,6 +104,14 @@ font-family: 'Merriweather', arial, sans-serif;
 font-size: 12px;
 }
 
+.copyright {
+color: #2B282A;
+font-family: 'Merriweather', arial, sans-serif;
+text-align:center;
+font-size: 10px;
+text-transform:uppercase;
+}
+
 .scroll {
   position: fixed;
     top: 0;
