@@ -24,3 +24,20 @@ p {
 font-family: 'Playfair Display', sans-serif;
 line-height: 180%;
 }
+
+.copyright {
+text-transform: uppercase;
+font-family: 'Playfair Display', sans-serif;
+text-align: center;
+}
+
+figcaption {
+font-style:italic;
+font-size: 13px;
+font-weight:500;
+}
+
+#img-container {
+display:block;
+text-align: center;
+}
