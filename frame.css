@@ -1,0 +1,26 @@
+.mlb-headline {
+font-size: 3em;
+font-weight: 700px;
+text-align: center;
+font-family: 'Playfair Display', sans-serif;
+}
+
+.mlb-byline {
+font-size: 1em;
+text-transform: uppercase;
+font-family: 'Playfair Display', sans-serif;
+text-align: center;
+}
+
+.mlb-chapheadline {
+font-size: 20px;
+font-family: 'Playfair Display', sans-serif;
+text-align: left;
+text-decoration: underline;
+font-weight: 300;
+}
+
+p {
+font-family: 'Playfair Display', sans-serif;
+line-height: 180%;
+}
