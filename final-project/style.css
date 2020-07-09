@@ -46,9 +46,10 @@ text-align: center;
 
 figcaption {
 font-style:italic;
-font-size: 13px;
-font-weight:500;
+font-size: 12px;
+font-weight:bold;
 text-align: center;
+
 }
 
 .jeter-container {
@@ -118,5 +119,20 @@ font-size:.5em;
 font-family:'Noto Serif', serif;
 font-weight:100;
 text-align:left;
-color:#000;
+color:#E1220C;
+}
+
+.kids-container {
+text-align: left;
+display: block;
+}
+
+.first-letter {
+  float: left;
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+  color: #0A4EAB;
+  text-shadow: #E1220C .05em .05em;
 }
