@@ -62,17 +62,6 @@ position:relative;
 text-align: center;
 }
 
-.tophat {
-margin: 0 auto;
-color: #fff;
-font-weight:700;
-text-transform: uppercase;
-}
-
-.blue {
-color: #0E57BB;
-}
-
 /* Splash Area */
 .hero-container {
 position:relative;
